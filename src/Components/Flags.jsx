@@ -6,7 +6,7 @@ export default function Flags({name,img}) {
 
 
   return (
-    <div className="Card" >
+    <div className="countryCard" >
         <img style={{
           height:"60px",
           width:"60px",

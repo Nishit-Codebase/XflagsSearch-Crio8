@@ -27,7 +27,7 @@ export default function Search({country,setFilteredCountries}) {
 
   return (
     <div className="Navbar">
-        <input placeholder="Search for Countries" value={searchterm} onChange={(e)=>setSearchTerm(e.target.value)}></input>
+        <input type="text" placeholder="Search for Countries" value={searchterm} onChange={(e)=>setSearchTerm(e.target.value)}></input>
     </div>
 
 
